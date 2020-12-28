@@ -1,8 +1,6 @@
-import { element } from 'protractor';
 import { Category } from './../shared/category.model';
 import { CategoryService } from './../shared/category.service';
 import { Component, OnInit } from '@angular/core';
-import { ThrowStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-category-list',
