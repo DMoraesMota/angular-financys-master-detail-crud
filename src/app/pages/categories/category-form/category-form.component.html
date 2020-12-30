@@ -21,10 +21,10 @@
   </div>
 </div>
 
-<form>
+<form [formGroup]="categoryForm">
   <div class="card">
     <div class="card-header">
-      Informações da Categoria
+      Informações da Categoria {{currentAction}}
     </div>
     <div class="card-body">
       <div class="form-row">
